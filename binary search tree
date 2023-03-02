@@ -1,0 +1,10 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları
+
+                        [4] --önce bir root belirliyoruz, dizideki sayıları root ile karşılaştırıyoruz.
+                     /      \
+                   [1]       [7] --karşılaştırdığımız sayı root değerinden küçükse sola büyükse sağa yazıyoruz.
+                  /  \        /  \
+               [0]   [3]     [5]  [8] --bu kurallar recursive olarak sol ve sağ tarafta yer alan subtree ler için de geçerlidir.
+                    /       /        \
+                  [2]     [6]        [9]
+                               
